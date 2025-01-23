@@ -1,0 +1,31 @@
+{
+    "message": "File processed.",
+    "total_valid_records": 2,
+    "total_invalid_records": 2,
+    "errors": [
+        {
+            "row": {
+                "name": "Sajith",
+                "email": "Sajithmail",
+                "age": "28"
+            },
+            "error": {
+                "email": [
+                    "Enter a valid email address."
+                ]
+            }
+        },
+        {
+            "row": {
+                "name": "Sabith",
+                "email": "Sabith@domin.com",
+                "age": "156"
+            },
+            "error": {
+                "age": [
+                    "Age must be between 0 and 120."
+                ]
+            }
+        }
+    ]
+}
